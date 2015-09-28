@@ -1,0 +1,32 @@
+﻿Build started 2015-09-28 15:32:19.
+     1>Project "C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\KalahaClient\KalahaClient.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.0\Include" /ZI /nologo /W4 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp KalahaMain.cpp Minimax.cpp Node.cpp
+         Minimax.cpp
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.h(19): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.h(20): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.cpp(11): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.cpp(31): warning C4114: same type qualifier used more than once
+         KalahaMain.cpp
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.h(19): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\minimax.h(20): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\kalahamain.cpp(66): warning C4100: 'args': unreferenced formal parameter
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\kalahamain.cpp(66): warning C4100: 'a': unreferenced formal parameter
+     1>c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\kalahamain.cpp(171): warning C4456: declaration of 'errorCode' hides previous local declaration
+         c:\users\administrator\dropbox\cv & relaterat\portfolio\school\celeritas - kalaha ai\kalahaclient\kalahamain.cpp(149): note: see declaration of 'errorCode'
+         Board.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Node.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\Debug\KalahaClient.exe" /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.0\Lib" Wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\Debug\KalahaClient.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\Debug\KalahaClient.lib" /MACHINE:X86 /SAFESEH Debug\Board.obj
+         Debug\KalahaMain.obj
+         Debug\Minimax.obj
+         Debug\Node.obj
+     1>Board.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         KalahaClient.vcxproj -> C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\Debug\KalahaClient.exe
+     1>Done Building Project "C:\Users\Administrator\Dropbox\CV & relaterat\Portfolio\School\Celeritas - Kalaha AI\KalahaClient\KalahaClient.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93

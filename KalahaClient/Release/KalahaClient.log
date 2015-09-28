@@ -1,0 +1,40 @@
+﻿Build started 2013-10-27 14:50:20.
+     1>Project "C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\KalahaClient\KalahaClient.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KalahaClient.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\KalahaClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp KalahaMain.cpp Minimax.cpp Node.cpp
+         Board.cpp
+         KalahaMain.cpp
+     1>c:\users\administrator\dropbox\master programmet\dv1458 applied artificial intelligence\assignments\assignment 2 - tille\kalahserver\celeritas\kalahaclient\Minimax.h(17): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\master programmet\dv1458 applied artificial intelligence\assignments\assignment 2 - tille\kalahserver\celeritas\kalahaclient\Minimax.h(18): warning C4114: same type qualifier used more than once
+     1>KalahaMain.cpp(65): warning C4100: 'args' : unreferenced formal parameter
+     1>KalahaMain.cpp(65): warning C4100: 'a' : unreferenced formal parameter
+     1>KalahaMain.cpp(400): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+     1>KalahaMain.cpp(405): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(200) : see declaration of 'strtok'
+         Minimax.cpp
+     1>c:\users\administrator\dropbox\master programmet\dv1458 applied artificial intelligence\assignments\assignment 2 - tille\kalahserver\celeritas\kalahaclient\Minimax.h(17): warning C4114: same type qualifier used more than once
+     1>c:\users\administrator\dropbox\master programmet\dv1458 applied artificial intelligence\assignments\assignment 2 - tille\kalahserver\celeritas\kalahaclient\Minimax.h(18): warning C4114: same type qualifier used more than once
+     1>Minimax.cpp(11): warning C4114: same type qualifier used more than once
+     1>Minimax.cpp(33): warning C4114: same type qualifier used more than once
+         Node.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\Release\KalahaClient.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\Release\KalahaClient.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\Release\KalahaClient.lib" /MACHINE:X86 /SAFESEH Release\Board.obj
+         Release\KalahaMain.obj
+         Release\Minimax.obj
+         Release\Node.obj
+         Generating code
+         Finished generating code
+         KalahaClient.vcxproj -> C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\Release\KalahaClient.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\KalahaClient.unsuccessfulbuild".
+         Touching "Release\KalahaClient.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Dropbox\Master programmet\DV1458 Applied Artificial Intelligence\Assignments\Assignment 2 - Tille\KalahServer\Celeritas\KalahaClient\KalahaClient.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57
